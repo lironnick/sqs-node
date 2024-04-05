@@ -1,0 +1,15 @@
+
+POST http://localhost:3333/send
+Content-Type: application/json
+
+{
+  "id": "1",
+  "item": "27467869",
+  "numped": "2900539"
+}
+
+###
+
+GET http://localhost:3333/read
+Content-Type: application/json
+
